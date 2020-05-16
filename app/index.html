@@ -4,14 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/libs.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <nav class="header__menu">
+            <div class="container">
+              <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="header__inner">
+              <div class="header__title">строительная бригада</div>
+              <div class="header__location">
+                Владимирская область <span> г. Владимир</span>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="slider">
+          <div class="container__fluid">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide"
+                  style="background-image: url(images/slide-1.jpg);"
+                >
+                  <div class="container">
+                    <div class="swiper-slide-title">Дома</div>
+                    <div class="swiper-slide-subtitle">
+                      Строительство и реставрация домов
+                    </div>
+                    <a href="tel: 79101886202" class="swiper-slide-btn"
+                      >Узнать подробности</a
+                    >
+                  </div>
+              </div>
+              <div
+                  class="swiper-slide"
+                  style="background-image: url(images/slide-2.jpg);"
+                >
+                  <div class="container">
+                    <div class="swiper-slide-title">Беседки</div>
+                    <div class="swiper-slide-subtitle">
+                      Строительство беседок, террас, мансард
+                    </div>
+                    <a href="tel: 79101886202" class="swiper-slide-btn"
+                      >Узнать подробности</a
+                    >
+                  </div>
+              </div>
+              <div
+                  class="swiper-slide"
+                  style="background-image: url(images/slide-3.jpg);"
+                >
+                  <div class="container">
+                    <div class="swiper-slide-title">Барбекюшницы</div>
+                    <div class="swiper-slide-subtitle">
+                      Установка каминов, барбекюшниц, печей
+                    </div>
+                    <a href="tel: 79101886202" class="swiper-slide-btn"
+                      >Узнать подробности</a
+                    >
+                  </div>
+              </div>
+              <div
+                  class="swiper-slide"
+                  style="background-image: url(images/slide-4.jpg);"
+                >
+                  <div class="container">
+                    <div class="swiper-slide-title">Фундаменты
+                    </div>
+                    <div class="swiper-slide-subtitle">
+                      Заливка фундаментов, отмосток и их реставрация
+                    </div>
+                    <a href="tel: 79101886202" class="swiper-slide-btn"
+                      >Узнать подробности</a
+                    >
+                  </div>
+              </div>
+             
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="footer__copy">
+            © Все права защищены
+          </div>
+        </div>
+      </div>
+    </div>
 
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
