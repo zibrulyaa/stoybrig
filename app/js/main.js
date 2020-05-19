@@ -6,12 +6,23 @@ $(function () {
       $(".header__menu").removeClass("sticky");
     }
   });
-  var mySwiper = new Swiper(".swiper-container", {
+  var mySwiper = new Swiper(".home__slider ", {
     direction: "vertical",
     loop: true,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
+    },
+    autoplay: {
+      delay: 5000,
+    },
+  });
+  var mySwiper = new Swiper(".gallery__slider", {
+    loop: true,
+    slidesPerView: 3,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
   });
 });
